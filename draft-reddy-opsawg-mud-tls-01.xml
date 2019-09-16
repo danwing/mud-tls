@@ -82,7 +82,8 @@
       those libraries are re-used much like any other software engineering
       project. Research <xref target="malware"></xref> indicates there are
       observable differences in how malware uses encryption compared with
-      non-malware uses encryption. There are several interesting findings
+      non-malware uses encryption.  Publicly-available code also shows some
+        value in examining the <xref target="ja3">ClientHello</xref>.  There are several interesting findings
       specific to DTLS and TLS which were found common to malware: <list
           style="symbols">
           <t>Older and weaker cryptographic parameters (e.g.,
@@ -752,6 +753,17 @@
           <date month="July" year="2016" />
         </front>
       </reference>
+      
+      <reference anchor="ja3" target="https://github.com/salesforce/ja3">
+        <front>
+          <title>A method for profiling SSL/TLS Clients</title>
+            <author fullname="Salesforce" surname="Inc.">
+            <organization>Salesforce</organization>
+          </author>
+          <date month="April" year="2019" />
+        </front>
+      </reference>
+        
     </references>
   </back>
 </rfc>
